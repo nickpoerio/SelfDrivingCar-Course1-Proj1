@@ -6,13 +6,15 @@ Overview
 The objective of the project is to detect lane lines using Python and OpenCV
 
 
-Code Files list
+Code files list
 ---
-P1.ipynb   -  python notebook
+P1.ipynb   -  python notebook (created with Anaconda 5.0)
 
-Output folder list
+Output folders list
 ---
 
 - test_images_output
 - test_videos_output
+
+
 
