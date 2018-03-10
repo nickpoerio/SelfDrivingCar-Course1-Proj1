@@ -27,11 +27,8 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 
 ### 2. Identify potential shortcomings with your current pipeline
 
-The pipeline is valid for highway environment only. In this environment, the main shortcoming is related to the presence of low contrast between lines and asphalt, like in the last, optional channel. After second 3 or so, a very light grey asphalt and a light yellow line cause the detection very difficult, even adding a color selection on the top of the pipeline
-
+The pipeline is valid for highway environment only. In this environment, the main shortcoming is related to the presence of low contrast between lines and asphalt, like in the last, optional challenge. After the second 3 or so, a very light grey asphalt and a light yellow line cause the detection to be very tricky, even adding a color selection step on the top of the pipeline: I turned asphalt to black and yellow lines to white, this worked in general, but not enough to completely solve the specific issue.
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
-
-Another potential improvement could be to ...
+I probably should be keeping refining the color selection for light grey apshalt and yellow lines. This could work for the specific problems, but I hope to learn more sophisticated techniques in the next projects.
