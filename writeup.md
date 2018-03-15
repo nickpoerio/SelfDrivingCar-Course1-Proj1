@@ -13,12 +13,12 @@ The goals / steps of this project are the following:
 
 My pipeline consists of the following steps:
 
-1. Conversion to grayscale
-2. Gaussian blur
-3. Canny edge detection
-4. Mask selection
-5. Probabilistic Hough transform
-6. Final output
+1. Conversion to grayscale: it condensates three color layers into one
+2. Gaussian blur: kernel function for smoothing
+3. Canny edge detection: image derivative thresholds to highlight edges
+4. Mask selection: trapezoidal mask
+5. Probabilistic Hough transform: line detection from masked canny edge image
+6. Final output: overlay to the original image
 
 Apart from tuning Hough and Canny transform parameters, what helped me most was appliyng a slope filter to the plotted lines, excluding horizontal lines or similar. This made the whole pipeling much more robust, less sensitive to parameters choice.
 
